@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenedor{
+	background-color: #fff;
+	width: 360px;
+	height: 300px;
+	
+	margin: auto;
+	position: absolute;
+	top: 110px;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.titulo{
+    color: #808080;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    padding: 7px;
+    font-size: 28px;
+}
+
+.titulo2{
+    color: 083030;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 7px;
+    font-size: 48px;
+		
+}
+
+.contenedor hr{
+    width: 380px;
+    margin: 0 0 25px 0;
+    padding: 0;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    box-shadow: 
+} 
+
+input[type=text], input[type=password]{
+    width:85%;
+    background-color: #458989;
+    padding: 10px 10px 10px 35px;
+    margin-bottom: 9px;
+    border: 0;
+    font-size: 18px;
+}
+
+.enviar{
+    padding: 10px;
+    height: 40px;
+	width: 100px;
+    margin: 10px 0;
+    color: aliceblue;
+    background: #458989;
+    float: right;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.textsend{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+ 	
+}
+
+input[type=submit]{
+    background-color: #458989;
+    border: 0;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+    height: 40px;
+    margin: 15px 10px 0 0;
+    font-size: 18px;
+	float: right;
+}
+
+.titulo3{
+    color: 083030;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 7px;
+    font-size: 48px;
+		
+}
+
+.personalizado{
+	color:#999}

@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+background-color: #4F8AAF;	
+	
+}
+
+.contenedor{
+	background-color: #FFFFFF;
+	width: 410px;
+	height: 300px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 10px 50px 70px;
+}
+
+.contenedor hr{
+    width: 360px;
+    margin: 0 0 25px 0;
+    padding: 0;
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    
+} 
+
+.contenedor p{
+    color: 083030;
+    margin: 5px 0px 0px 60px;
+   	font-size: 35px;
+		
+}
+
+.titulo{
+	color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin-top: 70px;
+    padding: 7px;
+    font-size: 48px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+.titulo2{
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+	margin-top: 90px;
+    padding: 7px;
+    font-size: 48px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		
+}
+
+.titulo3{
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    font-size: 48px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		
+}
+
+.subtitulo{
+	color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 7px;
+    font-size: 34px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+.menup{
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	}
+
+input[type=text], input[type=password]{
+    width:85%;
+    background-color: #4F8AAF;
+    padding: 10px 10px 10px 35px;
+    margin-bottom: 9px;
+    border: 0;
+    font-size: 18px;
+}
+
+
+input[type=submit]{
+    background-color: #4F8AAF;
+    border: 0;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+    height: 40px;
+    margin: 10px 60px 0 0;
+    font-size: 18px;
+	float: right;
+}
+
+#btnsubmit{
+  background-color: #1E3442;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  margin-right: auto;
+  margin-left: 560px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  
+}
+#btnsubmit:hover{
+	color: burlywood;
+}
+
+
+.textsend{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+
+.personalizado{
+	color:#999
+}
+
+
+.subtitulo{
+	color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 7px;
+    font-size: 34px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+.texuser{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:16px;
+	color: #FFFF62;
+	}
+
+
+img{
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+	cursor: pointer;
+}
+ 
+img:hover {
+    margin-top: 3px;
+}
+
+
+.button {
+	font: bold 14px Arial;
+	text-decoration: none;
+	background-color: #FF5733;
+	color: #FFFFFF;
+	padding-top: 9px;
+	padding-right: 19px;
+	padding-left: 19px;
+	padding-bottom: 9px;
+	border: 1px solid #FFFFFF;
+}
+
+#navega #menu #fijo {  
+    position:fixed;  
+    font-family:verdana,arial;  
+    font-size:11pt;  
+    text-align:center;  
+    padding: 10px 5px 10px 5px;    /* margen con valores: arriba - derecha - abajo - izquierda */   
+    top: 0px;                    /* Distancia hasta el borde superior */  
+    left: 0px;            /* Distancia hasta el borde izquierdo */ 
+    width:100%;  
+    background-color: #FFFFFF;   
+    z-index: 1;               /* hace que la capa sea opaca  */  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+	color: #4F8AAF;
+	top:0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #4F8AAF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FFFFFF;
+}
+
+.active {
+    background-color: #FFFFFF;
+	text-decoration: underline;
+}
+li a:hover {
+    background-color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.icon{
+	width: 113px;
+	height: 145px;
+	
+}
+
+#cajas{
+	background: #FFF;
+	text-transform:uppercase;
+	border: 1px groove grey;
+	width: 70%;
+	height: 5px;
+}
+
+#cajas2{
+	background: #FFF;
+	border: 1px groove grey;
+	width: 70%;
+	height: 5px;
+}
+
+
+h3{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+	color: #1E3442;
+	text-align: left;
+}
+
+#tab{
+	width: 70%;
+	background-color: #FFFFFF;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	font-weight: bold;
+	border-spacing: 5px 15px;
+}
+
+.btnr{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+
+.texto{
+	color:#FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.texto2{
+	color:#000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+}
+
+
+.abtn{
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color:#337ab7;
+	border-color:#2e6da4;
+	display:inline-block;
+	padding:3px 9px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px; text-decoration:none;  
+	}
+	
+.textotd{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	}	
+
+
+.tables{    
+    border: 0.1px;
+    text-align: center;
+	border-collapse: collapse;
+	background-color: white;
+	width:"748";
+}
+
+
+

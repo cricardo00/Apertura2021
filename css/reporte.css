@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.texto{
+	color:#FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.texto2{
+	color:#000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+}
+
+
+.abtn{
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color:#337ab7;
+	border-color:#2e6da4;
+	display:inline-block;
+	padding:3px 9px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px; text-decoration:none;  
+	}
+	
+.textotd{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	}	
+
+
+table, td, th {    
+    border: 0.1px solid #FFFFFF;
+    text-align: center;
+	
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+.titulo{
+	color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 7px;
+    font-size: 48px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.subtitulo{
+	color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 7px;
+    font-size: 34px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.contenedor{
+	padding: 50px 20px 50px 100px;
+	margin: auto;
+	position: absolute;
+}
+
+.texuser{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:16px;
+	color: #FFFF62;
+	}
+	
+	img{
+	 display:block;
+     margin:auto;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+	cursor: pointer;
+}
+ 
+img:hover {
+    margin-top: 3px;
+}
+
+.table1{
+ background-color: aliceblue;
+}
+

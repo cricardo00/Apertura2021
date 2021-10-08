@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document APEREZN - Enero 2018*/
+#navega #menu #fijo {  
+    position:fixed;  
+    font-family:verdana,arial;  
+            font-size:11pt;  
+            text-align:center;  
+            padding: 10px 5px 10px 5px;    /* margen con valores: arriba - derecha - abajo - izquierda */   
+            top: 0px;                    /* Distancia hasta el borde superior */  
+    left: 0px;            /* Distancia hasta el borde izquierdo */ 
+        width:100%;  
+        background-color: #FFFFFF;   
+        z-index: 1;               /* hace que la capa sea opaca  */  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+	color: #458989;
+	top:0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #458989;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FFFFFF;
+}
+
+.active {
+    background-color: #FFFFFF;
+	text-decoration: underline;
+}
+li a:hover {
+    background-color: #FFFFFF;
+	text-decoration: underline;
+}
